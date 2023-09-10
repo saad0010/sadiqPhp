@@ -2,19 +2,19 @@
 <html lang="zxx">
 
 <head>
-    <title>Website Design | Digital Marketing Agency</title>
+    <title>Digi Patch Solutions | Vector Conversion Services | Patches | Digitizing</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <meta name="keywords" content="Digital Marketing Agency" />
     <script>
-    addEventListener("load", function() {
-        setTimeout(hideURLbar, 0);
-    }, false);
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-    function hideURLbar() {
-        window.scrollTo(0, 1);
-    }
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
     </script>
     <!-- //Meta tag Keywords -->
 
@@ -25,12 +25,16 @@
     <!-- Style-CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <!-- Font-Awesome-Icons-CSS -->
+    <!-- lightbox -->
+    <link href="css/lightbox.css" rel="stylesheet">
+    <!-- Google Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+
     <!-- //Custom-Files -->
 
     <!-- Web-Fonts -->
-    <link
-        href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext"
-        rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext" rel="stylesheet">
     <!-- //Web-Fonts -->
 </head>
 
@@ -43,7 +47,7 @@
                 <div class="header d-lg-flex justify-content-between align-items-center py-3 px-sm-3">
                     <!-- logo -->
                     <div id="logo">
-                        <h1><a href="index.php"><span class="fa fa-linode mr-2"></span>Digital Agency</a></h1>
+                        <h1><a href="index.php"><span class="fa fa-linode mr-2"></span>Digi Patch Solutions</a></h1>
                     </div>
                     <!-- //logo -->
                     <!-- nav -->
@@ -57,19 +61,15 @@
 
                                 <li>
                                     <!-- First Tier Drop Down -->
-                                    <label for="drop-2" class="toggle toogle-2">Services <span class="fa fa-angle-down"
-                                            aria-hidden="true"></span>
+                                    <label for="drop-2" class="toggle toogle-2">Services <span class="fa fa-angle-down" aria-hidden="true"></span>
                                     </label>
                                     <a href="#">Services <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                                     <input type="checkbox" id="drop-2" />
                                     <ul>
-                                        <li><a href="webdesign.php" class="drop-text">Website Design</a></li>
-                                        <li><a href="dmarketing.php" class="drop-text">Digital Marketing</a></li>
-                                        <!-- <li><a href="404.php" class="drop-text">404</a></li> -->
-                                        <li><a href="webhost.php" class="drop-text">Web Hosting & Emails</a></li>
-                                        <li><a href="mobileapp.php" class="drop-text">Mobile Applications</a></li>
-                                        <li><a href="embroidery.php" class="drop-text">Emrbroidery Digitizing</a></li>
-                                        <li><a href="raster.php" class="drop-text">Raster To vector</a></li>
+                                        <li><a href="patches.php" class="drop-text">Patches</a></li>
+                                        <li><a href="digitizing.php" class="drop-text">Digitizing</a></li>
+                                        <li><a href="raster.php" class="drop-text">Rastor To Vector</a></li>
+
                                     </ul>
                                 </li>
                                 <li><a href="pricing.php">Pricing</a></li>
@@ -78,21 +78,12 @@
                         </nav>
                     </div>
                     <!-- //nav -->
-                    <div class="d-flex mt-lg-1 mt-sm-2 mt-3 justify-content-center">
-                        <!-- search -->
-                        <!-- <div class="search-w3layouts mr-3">
-                            <form action="#" method="post" class="search-bottom-wthree d-flex">
-                                <input class="search" type="search" placeholder="Search Here..." required="">
-                                <button class="form-control btn" type="submit"><span
-                                        class="fa fa-search"></span></button>
-                            </form>
-                        </div> -->
-                        <!-- //search -->
-                        <!-- download -->
+                    <div class="d-flex mt-lg-1 mt-sm-2 mt-2 justify-content-center">
+
                         <button class=" btn btn-success" onclick="window.location.href='contact.php';">
-                            Get In Touch <span class="fa fa-cloud-download"></span>
+                            Let's Talk <span class="fa fa-comment ml-1"></span>
                         </button>
-                        <!-- //download -->
+
                     </div>
                 </div>
             </div>
