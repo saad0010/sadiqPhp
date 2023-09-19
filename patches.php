@@ -30,7 +30,7 @@
             </div>
 
             <div class="container2">
-                <div class="gallery">
+                <div class="gallery1">
                     <a class="hov" href="images/p2r.jpg" data-lightbox="models" data-title="Caption1">
                         <h4 class="textHover1 ">Click To Enlarge </h4>
                         <img src="images/p2rs.jpg" alt="">

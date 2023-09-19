@@ -30,17 +30,18 @@
             </div>
 
             <div class="container2">
-                <div class="gallery">
+                <div class="gallery1">
                     <a href="images/d2r.jpg" class="hov" data-lightbox="models" data-title="Caption1">
-                        <h4 class="textHover2 ">Click To Enlarge </h4>
-                        <img style="border-top-left-radius:2rem;border-top-right-radius:2rem; " src="images/d2rs.jpg" alt="">
+                        <h4 class="textHover5 ">Click To Enlarge </h4>
+                        <img style="border-top-left-radius:2rem;border-top-right-radius:2rem; " src="images/d2rs.jpg"
+                            alt="">
                     </a>
 
                     <a href="images/d3r.jpg" data-lightbox="models" class="hov" data-title="Caption2">
-                        <h4 class="textHover2 ">Click To Enlarge </h4> <img src="images/d3rs.jpg" alt="">
+                        <h4 class="textHover5 ">Click To Enlarge </h4> <img src="images/d3rs.jpg" alt="">
                     </a>
                     <a href="images/d4r.jpg" class="hov" data-lightbox="models" data-title="Caption3">
-                        <h4 class="textHover2 ">Click To Enlarge </h4> <img src="images/d4rs.jpg" alt="">
+                        <h4 class="textHover5 ">Click To Enlarge </h4> <img src="images/d4rs.jpg" alt="">
                     </a>
                 </div>
             </div>

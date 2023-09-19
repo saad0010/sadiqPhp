@@ -1,5 +1,5 @@
 <?php include 'includes/header.php'; ?>
-
+<?php include_once "save.php" ?>
 
 
 
@@ -87,7 +87,7 @@
 <!-- services -->
 <section class="banner-bottom-w3layouts bg-li py-5" id="services">
     <div class="container py-xl-5 py-lg-3">
-        <h3 style=" color: #05b993;" class="tittle text-center font-weight-bold">WE PROVIDE BEST SERVICES</h3>
+        <h3 style=" color: #05b993;" class="tittle text-center ">WE PROVIDE BEST SERVICES</h3>
         <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">High Quality Embroidery Digitizing, Vector Art Services and
             Custom Patches
         </p>
@@ -98,7 +98,8 @@
                         <figure class="feature-v7__img">
                             <svg class="cd-icon" viewBox="0 0 24 24" aria-hidden="true">
                                 <g fill="currentColor">
-                                    <path d="M21 10H3c-1.103 0-2-.897-2-2V5c0-1.103.897-2 2-2h18c1.103 0 2 .897 2 2v3c0 1.103-.897 2-2 2z">
+                                    <path
+                                        d="M21 10H3c-1.103 0-2-.897-2-2V5c0-1.103.897-2 2-2h18c1.103 0 2 .897 2 2v3c0 1.103-.897 2-2 2z">
                                     </path>
                                     <rect x="1" y="12" width="6" height="9" rx="2" ry="2" opacity=".4"></rect>
                                     <rect x="9" y="12" width="14" height="9" rx="2" ry="2" opacity=".4"></rect>
@@ -109,10 +110,11 @@
                         <h4>Fast Turnaround Time</h4>
                     </div>
 
-                    <div class="feature-v7__sub-grid">
+                    <div style="font-family: poppins !important;" class="feature-v7__sub-grid">
                         <div class="feature-v7__img-clone" aria-hidden="true"></div>
 
-                        <p class="feature-v7__description">Our fast turnaround time is with-in to next morning but you
+                        <p class="feature-v7__description">Our fast turnaround
+                            time is with-in to next morning but you
                             can get your digitizing order with-in 3-4 hours by mentioning it as a rush order at the time
                             of placing your order.</p>
                     </div>
@@ -124,12 +126,15 @@
                             <svg class="cd-icon" viewBox="0 0 24 24" aria-hidden="true">
                                 <title>Galleries</title>
                                 <g fill="currentColor">
-                                    <path d="M9 9H4c-1.103 0-2-.897-2-2V4c0-1.103.897-2 2-2h5c1.103 0 2 .897 2 2v3c0 1.103-.897 2-2 2z">
+                                    <path
+                                        d="M9 9H4c-1.103 0-2-.897-2-2V4c0-1.103.897-2 2-2h5c1.103 0 2 .897 2 2v3c0 1.103-.897 2-2 2z">
                                     </path>
                                     <rect x="2" y="11" width="9" height="11" rx="2" ry="2" opacity=".4"></rect>
-                                    <path d="M20 22h-5c-1.103 0-2-.897-2-2v-3c0-1.103.897-2 2-2h5c1.103 0 2 .897 2 2v3c0 1.103-.897 2-2 2z">
+                                    <path
+                                        d="M20 22h-5c-1.103 0-2-.897-2-2v-3c0-1.103.897-2 2-2h5c1.103 0 2 .897 2 2v3c0 1.103-.897 2-2 2z">
                                     </path>
-                                    <rect x="13" y="2" width="9" height="11" rx="2" ry="2" transform="rotate(180 17.5 7.5)" opacity=".4"></rect>
+                                    <rect x="13" y="2" width="9" height="11" rx="2" ry="2"
+                                        transform="rotate(180 17.5 7.5)" opacity=".4"></rect>
                                 </g>
                             </svg>
                         </figure>
@@ -137,7 +142,7 @@
                         <h4>Free Quotes & Stitch Count</h4>
                     </div>
 
-                    <div class="feature-v7__sub-grid">
+                    <div style="font-family: poppins !important;" class="feature-v7__sub-grid">
                         <div class="feature-v7__img-clone" aria-hidden="true"></div>
 
                         <p class="feature-v7__description">Get a free quote with the stitch count for your convenience.
@@ -153,7 +158,9 @@
                                 <title>Animations</title>
                                 <g fill="currentColor">
                                     <circle cx="19" cy="9" r="5"></circle>
-                                    <path d="M1 3.059A23.925 23.925 0 0 1 8 20c0-3.416 1.557-6.468 4-8.486" fill="none" opacity=".4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                                    <path d="M1 3.059A23.925 23.925 0 0 1 8 20c0-3.416 1.557-6.468 4-8.486" fill="none"
+                                        opacity=".4" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2"></path>
                                 </g>
                             </svg>
                         </figure>
@@ -161,7 +168,7 @@
                         <h4>Secure Payment Methods</h4>
                     </div>
 
-                    <div class="feature-v7__sub-grid">
+                    <div style="font-family: poppins !important;" class="feature-v7__sub-grid">
                         <div class="feature-v7__img-clone" aria-hidden="true"></div>
 
                         <p class="feature-v7__description">We are offering our clients to pay their payment with most
@@ -176,9 +183,13 @@
                             <svg class="cd-icon" viewBox="0 0 24 24" aria-hidden="true">
                                 <title>UI Controls</title>
                                 <g fill="currentColor">
-                                    <path d="M17.5 11h-11C4.019 11 2 8.981 2 6.5S4.019 2 6.5 2h11C19.981 2 22 4.019 22 6.5S19.981 11 17.5 11z" opacity=".4"></path>
+                                    <path
+                                        d="M17.5 11h-11C4.019 11 2 8.981 2 6.5S4.019 2 6.5 2h11C19.981 2 22 4.019 22 6.5S19.981 11 17.5 11z"
+                                        opacity=".4"></path>
                                     <circle cx="6.5" cy="6.5" r="4.5"></circle>
-                                    <path d="M6.5 13h11c2.481 0 4.5 2.019 4.5 4.5S19.981 22 17.5 22h-11C4.019 22 2 19.981 2 17.5S4.019 13 6.5 13z" opacity=".4"></path>
+                                    <path
+                                        d="M6.5 13h11c2.481 0 4.5 2.019 4.5 4.5S19.981 22 17.5 22h-11C4.019 22 2 19.981 2 17.5S4.019 13 6.5 13z"
+                                        opacity=".4"></path>
                                     <circle cx="17.5" cy="17.5" r="4.5"></circle>
                                 </g>
                             </svg>
@@ -187,7 +198,7 @@
                         <h4>24/5 Support</h4>
                     </div>
 
-                    <div class="feature-v7__sub-grid">
+                    <div style="font-family: poppins !important;" class="feature-v7__sub-grid">
                         <div class="feature-v7__img-clone" aria-hidden="true"></div>
 
                         <p class="feature-v7__description">Our excellent support is available to our customers 24/5
@@ -205,14 +216,14 @@
 
 
 <!--#region Pricing -->
-<section class="midd-w3 py-5" id="faq">
+<section class="midd-w3 py-3" id="faq">
     <div class="container  py-xl-5 py-lg-3">
         <div class="row ">
             <div class="col-lg-12   left-wthree-img text-center">
-                <h3 style=" color: #05b993; margin-bottom: 3rem;" class="tittle text-center font-weight-bold">PRICING
-                    TABLE</h3>
+                <h3 style=" color: #05b993; margin-bottom: 3rem;" class="tittle text-center ">CUSTOM
+                    EMBROIDERED PATCHES PRICE LIST</h3>
                 <main class="table bg-img">
-                    <section class="table__body">
+                    <section style="font-family: poppins;" class="table__body">
                         <table>
                             <thead>
                                 <tr>
@@ -234,7 +245,8 @@
                                     <td data-label="25">146.65</td>
                                     <td data-label="50">165.9</td>
 
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
 
 
@@ -249,7 +261,8 @@
                                     <td data-label="10">132.86</td>
                                     <td data-label="25">160.65</td>
                                     <td data-label="50">174.3</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">211.4</td>
                                     <td data-label="200" class="offH">280</td>
@@ -262,7 +275,8 @@
                                     <td data-label="10">144.06</td>
                                     <td data-label="25">192.12</td>
                                     <td data-label="50">214.9</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">226.8</td>
                                     <td data-label="200" class="offH">302.4</td>
@@ -275,7 +289,8 @@
                                     <td data-label="10">145.46</td>
                                     <td data-label="25">202.65</td>
                                     <td data-label="50">225.4</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">243.6</td>
                                     <td data-label="200" class="offH">324.8</td>
@@ -288,7 +303,8 @@
                                     <td data-label="10">172.06</td>
                                     <td data-label="25">223.65</td>
                                     <td data-label="50">258.3</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">257.6</td>
                                     <td data-label="200" class="offH">417.2</td>
@@ -301,7 +317,8 @@
                                     <td data-label="10">180.32</td>
                                     <td data-label="25">253.75</td>
                                     <td data-label="50">291.9</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">310.8</td>
                                     <td data-label="200" class="offH">453.6</td>
@@ -314,7 +331,8 @@
                                     <td data-label="10">215.46</td>
                                     <td data-label="25">321.65</td>
                                     <td data-label="50">382.9</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">403.2</td>
                                     <td data-label="200" class="offH">585.2</td>
@@ -327,7 +345,8 @@
                                     <td data-label="10">216.86</td>
                                     <td data-label="25">370.65</td>
                                     <td data-label="50">472.5</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">502.6</td>
                                     <td data-label="200" class="offH">837.2</td>
@@ -340,7 +359,8 @@
                                     <td data-label="10">220</td>
                                     <td data-label="25">387.5</td>
                                     <td data-label="50">482.5</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">520</td>
                                     <td data-label="200" class="offH">858</td>
@@ -353,7 +373,8 @@
                                     <td data-label="10">225</td>
                                     <td data-label="25">395</td>
                                     <td data-label="50">492.5</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">540</td>
                                     <td data-label="200" class="offH">878</td>
@@ -366,7 +387,8 @@
                                     <td data-label="10">230</td>
                                     <td data-label="25">400</td>
                                     <td data-label="50">500</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">560</td>
                                     <td data-label="200" class="offH">900</td>
@@ -379,7 +401,8 @@
                                     <td data-label="10">235</td>
                                     <td data-label="25">405</td>
                                     <td data-label="50">510</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">590</td>
                                     <td data-label="200" class="offH">940</td>
@@ -392,7 +415,8 @@
                                     <td data-label="10">240</td>
                                     <td data-label="25">412.5</td>
                                     <td data-label="50">515</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">620</td>
                                     <td data-label="200" class="offH">960</td>
@@ -405,7 +429,8 @@
                                     <td data-label="10">245</td>
                                     <td data-label="25">434.7</td>
                                     <td data-label="50">524.1</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">630</td>
                                     <td data-label="200" class="offH">970.8</td>
@@ -418,7 +443,8 @@
                                     <td data-label="10">250</td>
                                     <td data-label="25">439.35</td>
                                     <td data-label="50">577.2</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">643.2</td>
                                     <td data-label="200" class="offH">1114.8</td>
@@ -431,7 +457,8 @@
                                     <td data-label="10">255</td>
                                     <td data-label="25">515.85</td>
                                     <td data-label="50">647.7</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">742.8</td>
                                     <td data-label="200" class="offH">1314</td>
@@ -444,7 +471,8 @@
                                     <td data-label="10">263.88</td>
                                     <td data-label="25">534.75</td>
                                     <td data-label="50">683.1</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">808.8</td>
                                     <td data-label="200" class="offH">1364.4</td>
@@ -457,7 +485,8 @@
                                     <td data-label="10">269.52</td>
                                     <td data-label="25">583.2</td>
                                     <td data-label="50">706.8</td>
-                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i class="fa fa-hand-o-right ml-2"></i>
+                                    <td data-label="" class="tte"> <a href="pricing.php">All Rates<i
+                                                class="fa fa-hand-o-right ml-2"></i>
                                         </a></td>
                                     <td data-label="100" class="offH">868.2</td>
                                     <td data-label="200" class="offH">1425.6</td>
@@ -477,8 +506,8 @@
 <!-- //middle -->
 
 <!-- Patches -->
-<section class="midd-w3 py-5" id="faq">
-    <div class="container py-xl-5 py-lg-3">
+<section class="midd-w3 py-1" id="faq">
+    <div class="container py-xl-1 py-lg-1">
         <div class="row">
             <div class="col-lg-6 mob about-right-faq">
                 <h6>Business Consultancy</h6>
@@ -492,7 +521,8 @@
                     <li>Custom PVC Patches</li>
                     <li>Custom Printed Patches</li>
                 </ul>
-                <a href="contact.php" style="margin-bottom: 4rem;" class="btn button-style button-style-2 mt-sm-5 mt-4">Contact US</a>
+                <a href="contact.php" style="margin-bottom: 4rem; font-weight:300;"
+                    class="btn button-style button-style-2 mt-sm-5 mt-4">Contact US</a>
             </div>
             <div class="col-lg-6 left-wthree-img text-right">
                 <a href="images/m1r.jpg" class="hov" data-lightbox="models" data-title="Caption1">
@@ -503,7 +533,7 @@
                 <!-- <img src="images/p1.jpg" alt="" class="img-fluid mt-5" /> -->
             </div>
             <div class="container2">
-                <div class="gallery">
+                <div class="gallery1">
                     <a class="hov" href="images/p2r.jpg" data-lightbox="models" data-title="Caption1">
                         <h4 class="textHover1 ">Click To Enlarge </h4>
                         <img src="images/p2rs.jpg" alt="">
@@ -526,8 +556,8 @@
 <hr class="hrr">
 <!-- //Patches -->
 <!-- Digitizing -->
-<section class="midd-w3 py-5 mt-5" id="faq">
-    <div class="container py-xl-5 py-lg-3">
+<section class="midd-w3 py-1 " id="faq">
+    <div class="container py-xl-1 py-lg-1">
         <div class="row">
             <div class="col-lg-6  ">
                 <!-- <img src="images/d1.webp" alt="" class="img-fluid mt-5" /> -->
@@ -550,23 +580,28 @@
                     <li>3D / Puff Digitizing</li>
                     <li>Chenille Digitizing</li>
                 </ul>
-                <a href="contact.php" style="margin-bottom: 4rem;" class="btn button-style button-style-2 mt-sm-5 mt-4 ">Contact US</a>
+                <a href="contact.php" style="margin-bottom: 4rem;"
+                    class="btn button-style button-style-2 mt-sm-5 mt-4 ">Contact US</a>
             </div>
 
             <div class="container2">
-                <div class="gallery">
+                <div class="gallery1">
                     <a href="images/d2r.jpg" class="hov" data-lightbox="models" data-title="Caption1">
                         <h4 class="textHover2 ">Click To Enlarge </h4>
-                        <img style="border-top-left-radius:2rem;border-top-right-radius:2rem; " src="images/d2rs.jpg" alt="">
+                        <img style="border-top-left-radius:2rem;border-top-right-radius:2rem; " src="images/d2rs.jpg"
+                            alt="">
                     </a>
 
-                    <a href="images/d3r.jpg" data-lightbox="models" class="hov" data-title="Caption2">
+                    <a style="height: 30vh;" href="images/d3r.jpg" data-lightbox="models" class="hov"
+                        data-title="Caption2">
                         <h4 class="textHover2 ">Click To Enlarge </h4> <img src="images/d3rs.jpg" alt="">
                     </a>
-                    <a href="images/d4r.jpg" class="hov" data-lightbox="models" data-title="Caption3">
+                    <a style="height: 30vh;" href="images/d4r.jpg" class="hov" data-lightbox="models"
+                        data-title="Caption3">
                         <h4 class="textHover2 ">Click To Enlarge </h4> <img src="images/d4rs.jpg" alt="">
                     </a>
-                    <a href="images/d5r.jpg" class="hov" data-lightbox="models" data-title="Caption3">
+                    <a style="height: 30vh;" href="images/d5r.jpg" class="hov" data-lightbox="models"
+                        data-title="Caption3">
                         <h4 class="textHover2 ">Click To Enlarge </h4> <img src="images/d5rs.jpg" alt="">
                     </a>
                 </div>
@@ -577,8 +612,8 @@
 <hr class="hrr">
 <!-- //Digitizing -->
 <!-- Vectors -->
-<section class="midd-w3 py-5 mt-5" id="faq">
-    <div class="container py-xl-5 py-lg-3">
+<section class="midd-w3 py-1" id="faq">
+    <div class="container py-xl-1 py-lg-1">
         <div class="row">
             <div class="col-lg-6 mob about-right-faq">
                 <h6>Business Consultancy</h6>
@@ -592,7 +627,8 @@
                     <li>Color Sepration</li>
                     <li>Custom Printed Patches</li>
                 </ul>
-                <a href="contact.php" style="margin-bottom: 4rem;" class="btn button-style button-style-2 mt-sm-5 mt-4">Contact US</a>
+                <a href="contact.php" style="margin-bottom: 4rem;"
+                    class="btn button-style button-style-2 mt-sm-5 mt-4">Contact US</a>
             </div>
             <div class="col-lg-6 left-wthree-img text-right">
                 <!-- <img id="Img" style="height: 70vh;" src="images/d1.jpg" alt="" class="img-fluid imob " /> -->
@@ -602,15 +638,17 @@
                 </a>
             </div>
             <div class="container2">
-                <div class="gallery ">
-                    <a class="hov " href="images/r2r.png" data-lightbox="models" data-title="Caption1">
+                <div class="gallery justify-items-center ">
+                    <a style="height: 120vh;" class="hov " href="images/r2r.png" data-lightbox="models"
+                        data-title="Caption1">
                         <h4 class="textHover4 ">Click To Enlarge </h4>
-                        <img src="images/r2r.png" class="mb" style="width:50%; height:50%;" alt="">
+                        <img src="images/r2r.png" class="mb" style="width:100%; height:50%;" alt="">
                     </a>
 
-                    <a href="images/r1r.jpg" class="hov " data-lightbox="models" data-title="Caption2">
+                    <a style="height: 120vh;" href="images/r1r.jpg" class="hov " data-lightbox="models"
+                        data-title="Caption2">
                         <h4 class="textHover4 ">Click To Enlarge </h4>
-                        <img src="images/r1r.jpg" class="mb" style="width:50%; height:50%;" alt="">
+                        <img src="images/r1r.jpg" class="mb" style="width:100%; height:50%;" alt="">
                     </a>
 
                 </div>
@@ -626,27 +664,31 @@
 <!-- //Vectors -->
 
 <!-- Testimonials -->
-<section class="banner-bottom-w3layouts bg-li py-5" id="services">
-    <div class="container py-xl-5 py-lg-3">
-        <h3 class="tittle text-center font-weight-bold">WHAT OUR CLIENT SAYS</h3>
+<section class="banner-bottom-w3layouts bg-li py-1" id="services">
+    <div class="container py-xl-1 py-lg-1">
+        <h3 class="tittle text-center ">WHAT OUR CLIENT SAYS</h3>
         <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Here we have shared few of our valuable customers comment
             about our services
         </p>
-        <div class="row mob pt-lg-4">
+        <div class="row mob pt-lg-4 text-center">
             <div class="ta0-grid ta0-gap-sm">
-                <div class="ta0-bg-contrast-lower ta0-bg-opacity-30% ta0-radius-md ta0-padding-md ta0-flex@md ta0-flex-column@md ta0-col-4@md">
-                    <svg class="ta0-icon ta0-icon--xl ta0-color-contrast-low ta0-margin-bottom-2xs" aria-hidden="true" width="64" height="64" viewBox="0 0 64 64">
+                <div
+                    class="ta0-bg-contrast-lower align-items-center ta0-bg-opacity-30% ta0-radius-md ta0-padding-md ta0-flex@md ta0-flex-column@md ta0-col-4@md">
+                    <svg class="ta0-icon ta0-icon--xl ta0-color-contrast-low ta0-margin-bottom-2xs" aria-hidden="true"
+                        width="64" height="64" viewBox="0 0 64 64">
                         <polygon points="2 36 17 2 26 2 15 36 26 36 26 62 2 62 2 36" />
                         <polygon points="38 36 53 2 62 2 51 36 62 36 62 62 38 62 38 36" />
                     </svg>
 
-                    <blockquote class="ta0-line-height-md ta0-margin-bottom-md"><mark>Lorem ipsum dolor sit amet
+                    <blockquote style="margin-top: 1rem;" class="ta0-line-height-md  ta0-margin-bottom-md"><mark>Lorem
+                            ipsum dolor sit amet
                             consectetur adipisicing elit</mark>. Eligendi atque doloremque beatae! Doloremque
-                        perspiciatis aliquid repellat quasi praesentium, minima nobis assumenda ex?</blockquote>
+                        , minima nobis assumenda ex?</blockquote>
 
                     <footer class="ta0-flex ta0-flex-wrap ta0-items-center ta0-margin-top-auto@md">
                         <figure class="ta0-flex-shrink-0 ta0-margin-right-2xs" aria-hidden="true">
-                            <img class="ta0-block ta0-width-lg ta0-height-lg ta0-radius-50% ta0-border ta0-border-2 ta0-border-bg" src="../../../app/assets/img/testimonials-img-1.svg" alt="Emily Ewing">
+                            <img class="ta0-block ta0-width-lg ta0-height-lg ta0-radius-50% ta0-border ta0-border-2 ta0-border-bg"
+                                src="../../../app/assets/img/testimonials-img-1.svg" alt="Emily Ewing">
                         </figure>
 
                         <cite class="ta0-text-sm">
@@ -657,18 +699,22 @@
                     </footer>
                 </div>
 
-                <div class="ta0-bg-contrast-lower ta0-bg-opacity-30% ta0-radius-md ta0-padding-md ta0-flex@md ta0-flex-column@md ta0-col-4@md">
-                    <svg class="ta0-icon ta0-icon--xl ta0-color-contrast-low ta0-margin-bottom-2xs" aria-hidden="true" width="64" height="64" viewBox="0 0 64 64">
+                <div
+                    class="ta0-bg-contrast-lower align-items-center ta0-bg-opacity-30% ta0-radius-md ta0-padding-md ta0-flex@md ta0-flex-column@md ta0-col-4@md">
+                    <svg class="ta0-icon ta0-icon--xl  ta0-color-contrast-low ta0-margin-bottom-2xs" aria-hidden="true"
+                        width="64" height="64" viewBox="0 0 64 64">
                         <polygon points="2 36 17 2 26 2 15 36 26 36 26 62 2 62 2 36" />
                         <polygon points="38 36 53 2 62 2 51 36 62 36 62 62 38 62 38 36" />
                     </svg>
 
-                    <blockquote class="ta0-line-height-md ta0-margin-bottom-md"><mark>Lorem ipsum dolor sit amet</mark>,
+                    <blockquote style="margin-top: 1rem;" class="ta0-line-height-md ta0-margin-bottom-md"><mark>Lorem
+                            ipsum dolor sit amet</mark>,
                         consectetur adipisicing elit. Consectetur, recusandae? Saepe, facere.</blockquote>
 
                     <footer class="ta0-flex ta0-flex-wrap ta0-items-center ta0-margin-top-auto@md">
                         <figure class="ta0-flex-shrink-0 ta0-margin-right-2xs" aria-hidden="true">
-                            <img class="ta0-block ta0-width-lg ta0-height-lg ta0-radius-50% ta0-border ta0-border-2 ta0-border-bg" src="../../../app/assets/img/testimonials-img-2.svg" alt="James Powell">
+                            <img class="ta0-block ta0-width-lg ta0-height-lg ta0-radius-50% ta0-border ta0-border-2 ta0-border-bg"
+                                src="../../../app/assets/img/testimonials-img-2.svg" alt="James Powell">
                         </figure>
 
                         <cite class="ta0-text-sm">
@@ -679,20 +725,23 @@
                     </footer>
                 </div>
 
-                <div class="ta0-bg-contrast-lower ta0-bg-opacity-30% ta0-radius-md ta0-padding-md ta0-flex@md ta0-flex-column@md ta0-col-4@md">
-                    <svg class="ta0-icon ta0-icon--xl ta0-color-contrast-low ta0-margin-bottom-2xs" aria-hidden="true" width="64" height="64" viewBox="0 0 64 64">
+                <div
+                    class="ta0-bg-contrast-lower align-items-center ta0-bg-opacity-30% ta0-radius-md ta0-padding-md ta0-flex@md ta0-flex-column@md ta0-col-4@md">
+                    <svg class="ta0-icon ta0-icon--xl ta0-color-contrast-low ta0-margin-bottom-2xs" aria-hidden="true"
+                        width="64" height="64" viewBox="0 0 64 64">
                         <polygon points="2 36 17 2 26 2 15 36 26 36 26 62 2 62 2 36" />
                         <polygon points="38 36 53 2 62 2 51 36 62 36 62 62 38 62 38 36" />
                     </svg>
 
-                    <blockquote class="ta0-line-height-md ta0-margin-bottom-md">Lorem ipsum dolor sit amet consectetur
+                    <blockquote style="margin-top: 1rem;" class="ta0-line-height-md ta0-margin-bottom-md">Lorem ipsum
+                        dolor sit amet consectetur
                         adipisicing elit. <mark>Suscipit provident numquam velit officiis impedit</mark>, molestiae
-                        adipisci architecto dolore expedita esse minima ut asperiores explicabo, aut iure exercitationem
-                        quam.</blockquote>
+                        adipisci architecto dolore expedita esse minima ut asperiores explicabo</blockquote>
 
                     <footer class="ta0-flex ta0-flex-wrap ta0-items-center ta0-margin-top-auto@md">
                         <figure class="ta0-flex-shrink-0 ta0-margin-right-2xs" aria-hidden="true">
-                            <img class="ta0-block ta0-width-lg ta0-height-lg ta0-radius-50% ta0-border ta0-border-2 ta0-border-bg" src="../../../app/assets/img/testimonials-img-3.svg" alt="Olivia Gribben">
+                            <img class="ta0-block ta0-width-lg ta0-height-lg ta0-radius-50% ta0-border ta0-border-2 ta0-border-bg"
+                                src="../../../app/assets/img/testimonials-img-3.svg" alt="Olivia Gribben">
                         </figure>
 
                         <cite class="ta0-text-sm">

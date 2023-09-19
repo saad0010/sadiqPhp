@@ -7,7 +7,7 @@
                 <h3 class="text-da">What You Can Save?</h3>
                 <p class="mt-4">Free Quote | Free Digitizing & Sampling | Free Shipping</p>
 
-                <a href="contact.php" class="btn button-style button-style-2 mt-sm-5 mt-4">Let's Talk</a>
+                <a href="contact.php" class="btn button-style button-style-2 mt-sm-5 mt-4">Free Quote</a>
             </div>
 
         </div>
@@ -24,12 +24,14 @@
             <div class="icon-effect-w3">
                 <span class="fa fa-envelope"></span>
             </div>
-            <h2 class="tittle text-center font-weight-bold">Stay Connected !</h2>
+            <h2 class="tittle text-center ">Stay Connected !</h2>
             <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">From Our Digital Marketing To Yours.</p>
-            <form action="#" method="post" class="subscribe-wthree pt-2">
+            <form action="" method="POST" class="subscribe-wthree pt-2">
                 <div class="d-flex subscribe-wthree-field">
-                    <input class="form-control" type="email" placeholder="Enter your email..." name="email" required="">
-                    <button class="btn form-control w-50" type="submit">Subscribe</button>
+                    <input class="form-control" type="email" placeholder="Enter your email..." name="emailform"
+                        required="">
+                    <button class="btn form-control w-50" name="email-form" type="submit">Subscribe</button>
+                    <p class="error message-error"><?php echo $email_error1; ?></p>
                 </div>
             </form>
         </div>
@@ -57,67 +59,87 @@
                 <!-- Grid row -->
                 <div class="row  mt-3">
                     <!-- Grid column -->
-                    <div class="col-md-3 mob col-lg-4 col-xl-3 mx-auto mb-4">
+                    <div class="col-md-2 mob col-lg-2 col-xl-2 mx-auto mb-4 hovv">
                         <!-- Content -->
-                        <h6 class="text-uppercase text-primary display-4 fw-bold text-left">Digi Patch Solutions</h6>
+                        <a href="index.php">
+                            <h6 style="font-size:2rem; color:#705ecf;" class="text-uppercase    text-left">Digi Patch
+                                Solutions
+                            </h6>
+                        </a>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 fservice  col-lg-3 col-xl-3 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 style=" color:black;" class="text-uppercase   fw-bold mb-4 text-center">Services</h6>
+                        <p class="text-center">
+                            <a href="patches.php" style="color:blue;">Custom Embroidered Patches</a>
+                        </p>
+                        <p class="text-center">
+                            <a href="digitizing.php" style="color:blue;">Digitizing</a>
+                        </p>
+                        <p class="text-center">
+                            <a href="raster.php" style="color:blue;">Rastor To Vector </a>
+                        </p>
 
                     </div>
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-2 fservice  col-lg-2 col-xl-2 mx-auto mb-4">
+                    <div class="col-md-2 fservice col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Links -->
-                        <h6 class="text-uppercase  text-primary fw-bold mb-4 text-center">Services</h6>
+                        <h6 style=" color:black;" class="text-uppercase  fw-bold  mb-4 text-center">
+                            Company</h6>
                         <p class="text-center">
-                            <a href="patches.php" class="text-success">Patches</a>
+                            <a href="about.php" style="color:blue;">About Us</a>
                         </p>
                         <p class="text-center">
-                            <a href="digitizing.php" class="text-success">Digitizing</a>
+                            <a href="pricing.php" style="color:blue;">Pricing</a>
                         </p>
                         <p class="text-center">
-                            <a href="raster.php" class="text-success">Rastor To Vector </a>
-                        </p>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 fservice col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase text-primary fw-bold  mb-4 text-center">Company</h6>
-                        <p class="text-center">
-                            <a href="about.php" class="text-success ">About Us</a>
+                            <a href="contact.php" style="color:blue;">Contact Us</a>
                         </p>
                         <p class="text-center">
-                            <a href="pricing.php" class="text-success">Pricing</a>
-                        </p>
-                        <p class="text-center">
-                            <a href="contact.php" class="text-success">Contact Us</a>
-                        </p>
-                        <p class="text-center">
-                            <a href="faq.php" class="text-success">Help</a>
+                            <a href="faq.php" style="color:blue;">Help</a>
                         </p>
                     </div>
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-4 fservice col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <div class="col-md-4 fservice col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
                         <!-- Links -->
-                        <h6 class="text-uppercase fw-bold text-primary mb-4 text-center">Contact</h6>
+                        <h6 style=" color:black;" class="text-uppercase fw-bold  mb-4 text-center">Contact
+                        </h6>
+                        <div class="d-flex">
+                            <i style="font-size: 1.3rem; color:black;" class="fa fa-envelope-o  "></i>
+                            <h6 style=" font-size:1.3rem; color:green;" class="text-center   mb-4  ml-3">
 
-                        <h5 class="text-left  text-dark mb-3"><i class="fa fa-location-arrow mr-3  "></i> 2400
-                            Siskiyou
-                            Street Lewisville, Texas 75056
-                        </h5>
+                                info@digipatchsolutions.com
+                            </h6>
+                        </div>
+
+                        <div class="d-flex">
+                            <i style="font-size: 1.3rem; color:black;" class="fa fa-phone-square mr-3 "></i>
+                            <h6 style=" font-size:1.3rem; color:green; font-weight:100" class="text-center  mb-2">
+                                +1-347-474-0030
+                            </h6>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <i style="font-size: 1.3rem;  color:black;" class="fa fa-location-arrow mr-3  "></i>
+                            <h6 style=" font-size:1.3rem; color:green;" class="text-left   mb-3"> 2400
+                                Siskiyou
+                                Street Lewisville, Texas 75056
+                            </h6>
 
 
-                        <h5 style="font-size: .9rem; font-weight:bold;" class="text-center  text-dark mb-4 mt-4 mr-2">
-                            <i class="fa fa-envelope-o mf "></i>
-                            info@digipatchsolutions.com
-                        </h5>
+                        </div>
+                        <div class="text-right">
+                            <p style="font-size: 1rem;  color:#705ecf;">(A Division of TechVio LLC)</p>
+                        </div>
 
-                        <h5 style="font-weight: bold;" class="text-left text-dark mb-2"><i class="fa fa-phone-square mr-3 "></i> +1-347-474-0030
-                        </h5>
+
+
                     </div>
                     <!-- Grid column -->
                 </div>
@@ -127,7 +149,7 @@
         <!-- Section: Links  -->
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="text-center p-3" style="font-family:poppins; background-color: rgba(0, 0, 0, 0.2)">
             © 2023 Copyright:
             <span class="text-dark">Digi Patch Solutions</span>
         </div>
@@ -142,7 +164,7 @@
     <!-- / Whatsapp button -->
 
     <!-- Popup -->
-    <div class="popup">
+    <div class="popup" id="popup">
         <button id="close" class="close-btn">&times;</button>
 
         <div class="contentpop">
@@ -151,10 +173,10 @@
             <p>Join our email list and be first to know about exciting sales, giftings and more.</p>
         </div>
 
-        <div class="form">
-            <input class="form-control" type="email" placeholder="Enter your email..." name="email" required="">
-            <button class="btn form-control w-50" type="submit">Subscribe</button>
-        </div>
+        <form action="" method="POST" class="form">
+            <input class="form-control" type="email" placeholder="Enter your email..." name="emailform" required="">
+            <button class="btn form-control w-50" name="email-form" type="submit">Subscribe</button>
+        </form>
 
 
     </div>
@@ -164,44 +186,42 @@
 <!-- End of .container -->
 
 <script type="text/javascript">
-    var counter = 1;
-    setInterval(function() {
-        document.getElementById('radio' + counter).checked = true;
+var counter = 1;
+setInterval(function() {
+    document.getElementById('radio' + counter).checked = true;
 
-        counter++;
-        if (counter > 4) {
-            counter = 1;
-        }
-    }, 5000);
+    counter++;
+    if (counter > 4) {
+        counter = 1;
+    }
+}, 5000);
 </script>
 
 
 
-
-
-
-
+<!-- 
 <script>
-    $(document).ready(function() {
-        console.log(window.location.href);
-        window.addEventListener("load", function() {
-            setTimeout(
-                function open(event) {
-                    document.querySelector(".popup").style.display = "block";
-                    document.body.classList.add("active-popup");
-                },
-                500
-            )
-        });
+window.addEventListener("load", function() {
+    setTimeout(
+        function open(event) {
+            document.querySelector(".popup").style.display = "block";
+            document.body.classList.add("active-popup");
+        },
+        500
+    )
+});
 
-        document.querySelector("#close").addEventListener("click", function() {
-            document.querySelector(".popup").style.display = "none";
-            document.body.classList.remove("active-popup");
-        });
-    })
-</script>
+
+document.querySelector("#close").addEventListener("click", function() {
+    document.querySelector(".popup").style.display = "none";
+    document.body.classList.remove("active-popup");
+});
+</script> -->
+
+
 <!-- lightbox -->
 <script src="lightbox-plus-jquery.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>

@@ -28,18 +28,18 @@
                 <h4>Samples</h4>
             </div>
             <div class="container2">
-                <div class="gallery ">
+                <div class="gallery2 ">
                     <a class="hov " href="images/r2r.png" data-lightbox="models" data-title="Caption1">
                         <h4 class="textHover4 ">Click To Enlarge </h4>
-                        <img src="images/r2r.png" class="mb" style="width:50%; height:50%;" alt="">
+                        <img src="images/r2r.png" class="mb" style="width:100%; height:50%;" alt="">
                     </a>
 
-                    <a href="images/r1r.jpg" class="hov " data-lightbox="models" data-title="Caption2">
+                    <a href=" images/r1r.jpg" class="hov " data-lightbox="models" data-title="Caption2">
                         <h4 class="textHover4 ">Click To Enlarge </h4>
-                        <img src="images/r1r.jpg" class="mb" style="width:50%; height:50%;" alt="">
+                        <img src="images/r1r.jpg" class="mb" style="width:100%; height:50%;" alt="">
                     </a>
-                    <!-- <a href="images/p4.jpg" data-lightbox="models" data-title="Caption3"> <img src="images/p4.jpg"
-                            alt=""></a> -->
+                    <!-- <a href=" images/p4.jpg" data-lightbox="models" data-title="Caption3"> <img src="images/p4.jpg" alt="">
+                    </a> -->
                 </div>
             </div>
         </div>
