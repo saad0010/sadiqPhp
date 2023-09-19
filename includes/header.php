@@ -8,13 +8,13 @@
     <meta charset="UTF-8" />
     <meta name="keywords" content="Digital Marketing Agency" />
     <script>
-        addEventListener("load", function() {
-            setTimeout(hideURLbar, 0);
-        }, false);
+    addEventListener("load", function() {
+        setTimeout(hideURLbar, 0);
+    }, false);
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    }
     </script>
     <!-- //Meta tag Keywords -->
 
@@ -29,13 +29,18 @@
     <link href="css/lightbox.css" rel="stylesheet">
     <!-- Google Recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
-
-
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/ico.jpg">
     <!-- //Custom-Files -->
 
-    <!-- Web-Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    <!-- Web-Fonts
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext" rel="stylesheet"> -->
     <!-- //Web-Fonts -->
+
+
 </head>
 
 <body>
@@ -47,7 +52,7 @@
                 <div class="header d-lg-flex justify-content-between align-items-center py-3 px-sm-3">
                     <!-- logo -->
                     <div id="logo">
-                        <h1><a href="index.php"><span class="fa fa-linode mr-2"></span>Digi Patch Solutions</a></h1>
+                        <h1><a href="index.php">DIGI PATCH SOLUTIONS</a></h1>
                     </div>
                     <!-- //logo -->
                     <!-- nav -->
@@ -61,12 +66,13 @@
 
                                 <li>
                                     <!-- First Tier Drop Down -->
-                                    <label for="drop-2" class="toggle toogle-2">Services <span class="fa fa-angle-down" aria-hidden="true"></span>
+                                    <label for="drop-2" class="toggle toogle-2">Services <span class="fa fa-angle-down"
+                                            aria-hidden="true"></span>
                                     </label>
                                     <a href="#">Services <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                                     <input type="checkbox" id="drop-2" />
                                     <ul>
-                                        <li><a href="patches.php" class="drop-text">Patches</a></li>
+                                        <li><a href="patches.php" class="drop-text">Custom Patches</a></li>
                                         <li><a href="digitizing.php" class="drop-text">Digitizing</a></li>
                                         <li><a href="raster.php" class="drop-text">Rastor To Vector</a></li>
 
@@ -80,8 +86,9 @@
                     <!-- //nav -->
                     <div class="d-flex mt-lg-1 mt-sm-2 mt-2 justify-content-center">
 
-                        <button class=" btn btn-success" onclick="window.location.href='contact.php';">
-                            Let's Talk <span class="fa fa-comment ml-1"></span>
+                        <button style="font-family: poppins !important;" class=" btn btn-success"
+                            onclick="window.location.href='contact.php';">
+                            Free Quote <span class="fa fa-comment ml-1"></span>
                         </button>
 
                     </div>
